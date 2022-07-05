@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <style>
+        body{
+            background-color: plum;
+        }
+        h1{
+            background-color: purple ;
+            text-align: center;
+        }
+        p{
+            color: brown;
+        }
+        #one{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student information</h1>
+    <form action="" method="post">
+        <p>Name: <input type="text" name="name" required></p>
+        <p>Surname: <input type="text" name="surname" required></p>
+        <p>Gender: <input type="radio" name="gender" id="Female" required>Female
+        <input type="radio" name="gender" id="male" required>Male</p>
+        <p>Address: <textarea name="address" id="address" cols="70" rows="10"></textarea>
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>Birthdate: <input type="date" name="date" id="date"></p>
+        <p></p>
+        <p>Branch: 
+            <select name="" id="" required>
+                <option value="">..select branch..</option>
+                <option value="It">IT</option>
+                <option value="computer">Computer</option>
+                <option value="computer">Electronics</option>
+                <option value="mechanical">Mechanical</option>
+            </select>
+        </p>
+        <hr>
+        <fieldset>
+        <h1>PAY EXAM FEES</h1>
+        <p>Card Type:
+            <input type="radio" name ="visa" id="visa" required>Visa
+            <input type="radio" name="visa" id="visa" required>rupay
+            <input type="radio" name="visa" id="visa" required>Master Card
+        </p>
+        <p>Card number: <input type="number" name="number" id="number" required></p>
+        <p>Name: <input type="text" name="name" id=""name required></p>
+        <p>Expiry date: <input type="date" name="" id="">
+           CVV:<input type="password" name="cvv" id="cvv" required> </p>
+    </fieldset>
+    <input type="submit" value="Pay Now" id="one">
+    </form>
+</body>
+</html>
