@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(226, 123, 123);
+}
+
+li {
+  float: left;
+  border-right:1px solid rgb(63, 66, 220);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3e2db8;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="/navBar.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contaner{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.d{
+    margin: 3px;
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav{
+    grid-row: 1/5;
+}
+.header{
+    grid-column: 2/5;
+}
+.artical{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.footer{
+    grid-column: 2/5;
+}
+.ads{
+    grid-row: 2/4;
+}

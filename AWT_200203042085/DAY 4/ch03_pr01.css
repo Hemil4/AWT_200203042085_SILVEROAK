@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #000;
+    color: pink;
+    padding-left: 15px;
+}
+.content{
+    padding: 0px 5px;
+    height: 87vh;
+    background: rgba(176, 41, 113, 0.598);
+}
+footer{
+    border: 2px solid #000 ;
+    background: rgb(195, 36, 36);
+}
+.foot{
+
+    padding: 3px;
+    text-align: center;
+}

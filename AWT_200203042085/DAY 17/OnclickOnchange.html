@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 24(Onclick_onchange)</title>
+</head>
+<style>
+    h1{
+        text-align: center;        
+    }
+    body{
+        background-color: bisque;
+    }
+    
+</style>
+<body>
+    <h1>Hello,Welcome!!</h1>
+    <button onclick="change()">Click me for changing background color</button>
+
+    <p id="changeText" onclick="changeText()">click me to Change Text</p>
+
+    <p id="onChange" onclick="onChange()">click me to See onchange event</p>
+   
+</body>
+<script>
+    function change(){
+        document.querySelector("body").style.backgroundColor="pink";
+    }
+
+    function changeText(){
+        document.querySelector("#changeText").innerHTML=prompt("Enter a string which you want to change");
+    }
+
+    function onChange(){
+        document.querySelector("#onChange").innerHTML=prompt("Enter your name:");
+    }
+</script>
+</html>

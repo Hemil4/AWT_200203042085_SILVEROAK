@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 25px;
+background: #000;
+color: pink;
+}
+nav ul li{
+    margin: 10px;
+    display: inline;
+}
+.d1{
+    height: 91vh;
+    width:50%;
+    background: rgba(128, 0, 128, 0.708);
+    display: inline-block;
+
+}
+.d2{
+    height: 91vh;
+    width: 50%;
+    background: rgb(215,123,57);
+    display: inline-block;
+}
+footer{
+    background: black;
+    color: pink;
+    text-align: center;
+}
